@@ -1,0 +1,67 @@
+
+<div id="logo">	
+
+	</div>
+
+
+
+	<h1 style="text-align:center"> Login to your account </h1>
+<div id="accordionlogin">
+    <h3><a href="#">Login to Access account</a></h3>
+	<div class="acc_login">	
+			<fieldset >
+		<table id="tblaccinfo">
+			<tr>
+				<td class="tdclass">	
+		<span id="mandatory" style="color:red">*</span> Email:</td>	<td class="tdclass"><input type=text name='email' id="email" class="tb">  </td>
+		</tr>
+		
+		<tr>
+			<td></td></tr>
+			<tr><td class="tdclass">
+		<span id="password_warning" style="color:red">*</span> Password:  </td><td class="tdclass">   <input type=password id="password" class="tb"></td></tr>
+			<tr>
+				<td></td></tr>
+			<tr><td colspan =2>	<input type='submit' id="accloginbtn" value="LOGIN" class = "submit"></td></tr>
+			
+			<tr><td>	<a href="#" class="show_hide">Can't Access Account. Recover Login</a> </td></tr>
+					<tr>
+						<td></td></tr>
+							<tr><td colspan ="2" class="tdclass"><hint id="hint2">*Fields in Red are all mandatory*</hint> </td></tr>
+		<% if  !@emailacc.nil?  %>
+			<tr><td><span id="mandatoryfields" style="color:red"><%=@emailacc%> is not a valid email in the Account</span></br> </td></tr>
+		
+		<%end%>
+							<tr><td><span id="mandatoryfields" style="color:red"></span></br> </td></tr>
+		</table>
+
+		</fieldset>
+		</div>
+</div>
+	<div class="slidingDiv">
+	<fieldset>
+		<form id="emailform" action="sendemail">
+		<table>
+			<tr>
+				<td class="tdclass">	
+		<span id="mandatory" style="color:red">*</span> Account Email :</td> <td class="tdclass">
+			<input type=text name="emailtxtname" id="emailtxt" class="tb">  </td>
+		</tr>
+		<tr>
+			<td class="tdclass">	
+	<span id="mandatory" style="color:red">*</span> Password :</td> <td class="tdclass">
+		<input type=password name="passwordreset" id="passwdreset" class="tb">  </td>
+	</tr>
+	<tr>
+		<td class="tdclass">	
+<span id="mandatory" style="color:red">*</span> Password Confirmation :</td> <td class="tdclass">
+	<input type=password name="passwordresetconfirm" id="passwdresetconfirm" class="tb">  </td>
+</tr>
+		<tr><td colspan =2>	<input type='submit' id="sendemailbtn"  value="Reset Account Info" class ="submit"></td></tr>
+	<tr><td></td></tr>
+	<tr><td colspan ="2" class="tdclass"><hint id="hint2">*Fields in Red are all mandatory*</hint> </td></tr>
+	<tr><td><span id="mandatoryfields1" style="color:red"></span></br> </td></tr>
+	</table>
+		</form>
+		</fieldset>
+	</div>

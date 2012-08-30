@@ -1,0 +1,38 @@
+<div id="acc_create">
+	<fieldset>
+
+<table id="tblaccinfo">
+	<tr>
+		<td class="tdclass">	
+<span id="mandatory" style="color:red">*</span> Email:</td>	<td class="tdclass"><input type=text name='email' id="email" value = '<%= @emailaddr%>' class="tb">  </td>
+</tr>
+<tr><td colspan ="2" class="tdclass"><hint id="hint1">Your email address will be your account login.</hint> </td></tr>
+<tr>
+	<td colspan = "2" class="tdclass">
+<span id="email_warning" style="color:red" class="tdclass"></span>
+</td>
+</tr>
+<tr>
+	<td colspan = "2" class="tdclass">
+<% if @flag1%>
+<span id="email_confirm" style="color:red">Email already exists. Enter a different email. <%=link_to "Login Here" ,{:controller => 'candidate/candidate' ,:action =>'loginaccount'}%> </span> 
+
+<% end %>
+<% if @flag1 == false %>
+<span id="email_confirm" style="color:green">Email accepted. </span>
+<% end %>
+</td>
+</tr>
+<tr>
+	<td></td></tr>
+	<tr><td class="tdclass">
+<span id="email_warning" style="color:red">*</span> Password:  </td><td class="tdclass">   <input type=password id="password" class="tb"></td></tr>
+<tr><td class="tdclass">
+<span id="email_warning" style="color:red">*</span> Password Confirmation:  </td><td class="tdclass"> <input type=password id="passwordagain" class="tb"></td></tr>
+<tr><td colspan = "2" class="tdclass">
+<span id="password_warning" style="color:red"></span></td></tr>
+<tr><td colspan ="2" class="tdclass"><hint id="hint2">*Fields in Red are all mandatory*</hint> </td></tr>
+</table>
+
+</fieldset>
+</div>

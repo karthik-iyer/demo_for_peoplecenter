@@ -1,0 +1,4 @@
+.bundle
+db/schema.rb
+log/**/*
+tmp/**/*

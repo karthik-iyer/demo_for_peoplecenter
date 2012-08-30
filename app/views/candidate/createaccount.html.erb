@@ -1,0 +1,20 @@
+<h1 style="text-align:center">Create a new Account</h1>
+
+<div id="accordioncreateaccount">
+    <h3><a href="#">Login and Account Information</a></h3>
+<div>
+ <form id="formcreate" action ="userexists">
+	<h3><a href="#">Login Information  (Step - 1)</a></h3>
+<%=render :partial => 'shared/new_email'%>
+<br/>
+    <h3><a href="#">Account Information  (Step - 2)</a></h3>
+<%=render :partial => 'shared/account_info'%>
+<br/>
+<div style="text-align:center">
+	<span id="mandatoryfields" style="color:red"></span></br>
+	<input type="submit" value='Create Account' class='submit' id="submitcreateform">	
+	</div>
+</div>
+  </form>
+</div>
+

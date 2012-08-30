@@ -1,0 +1,36 @@
+<head>
+	
+	<title>Enveritas People Center</title>
+	<link rel="shortcut icon" href = "images/favicon.ico">
+</head>
+
+<body>
+<div id ="head">
+<%=render :partial => 'shared/header_desc'%>
+				</div>
+
+
+
+				<div id="accordion">
+				    <h3><a href="#">I need an Account</a></h3>
+				    <div>
+				    	
+				<%=render :partial => 'shared/need_account'%>
+				
+				    </div>
+				    <h3><a href="#">View Current Jobs</a></h3>
+				    <div>
+				    	
+				<%=render :partial => 'shared/current_jobs'%>
+				    </div>
+				
+					<h3><a href="#">I have an account</a></h3>
+				    <div>
+				    	
+				<%=render :partial => 'shared/login_account'%>
+				    </div>
+				
+				
+				</div>
+
+</body>

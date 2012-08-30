@@ -1,0 +1,2 @@
+module Candidate::CandidateHelper
+end

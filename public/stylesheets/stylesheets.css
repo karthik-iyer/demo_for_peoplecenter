@@ -1,0 +1,146 @@
+#accordion
+{
+	
+	
+}
+#accordioncreateaccount
+{	
+	
+}
+
+#head
+{
+text-align: center;	
+margin: 0;
+padding: 0;
+border: 0;
+font-family: helvetica, verdana, arial, sans-serif;
+font-size:   13px;
+line-height: 18px;	
+width:1000px;
+margin:50px auto; 	  
+}
+#emailinfo
+{
+	
+}
+.tdclass
+{
+	
+}
+#acc_create
+{
+	
+	height:25%;
+	border-style:solid;
+	background-color:Gray;	
+}
+#acc_login{
+	height:25%;
+	border-style:solid;
+	background-color:blue;
+	text-align:center;
+	
+	
+}
+#tblaccinfo
+{	
+		width : 50%;
+		height:40%;
+		border-style:solid;
+		background-color:Gray;
+		padding-left:8%;
+		border-style:solid;
+		margin-left: auto;
+		margin-right: auto;
+		
+}	
+.lblemailerror
+{
+		display:none;
+}
+#hint1
+{
+	font-size:10px;
+	color:black;
+}
+#hint2
+{
+	font-size:10px;
+	color:red;
+}
+.tb
+{
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+h3
+{	
+	font-color:black;
+}
+
+.submit
+{
+	font-family: "Lucida Grande", Lucida, Arial, sans_serif;
+	  background: url('/images/button_bg.png') repeat-x bottom left;
+	  margin: 0;
+	  width: auto;
+	  overflow: visible;
+	  display: inline-block;
+	  cursor: pointer;
+	  text-decoration: none;
+	  border-style: solid;
+	  font-weight: bold;
+	  -moz-border-radius: 6px;
+	  -webkit-border-radius: 6px;
+	  -o-border-radius: 6px;
+	  -ms-border-radius: 6px;
+	  -khtml-border-radius: 6px;
+	  border-radius: 6px;
+	  font-size: 18px;
+	  line-height: 21.6px;
+	  padding: 5px 18px;
+	  border-width: 1px;
+	  -moz-border-radius: 0.5em;
+	  -webkit-border-radius: 0.5em;
+	  -o-border-radius: 0.5em;
+	  -ms-border-radius: 0.5em;
+	  -khtml-border-radius: 0.5em;
+	  border-radius: 0.5em;
+	  font-size: 14px;
+	  line-height: 16.8px;
+	  padding: 2px 11px;
+	  border-width: 1px;
+	  padding: 9px 18px;
+	  border-width: 1px;
+	  background-color: #0b5ccd;
+	  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a1bbe0), color-stop(10%, #5c89c9), color-stop(50%, #325c96), color-stop(50%, #2e558b), color-stop(100%, #3b6cb1));
+	  background-image: -moz-linear-gradient(top, #a1bbe0 0%, #5c89c9 10%, #325c96 50%, #2e558b 50%, #3b6cb1 100%);
+	  background-image: linear-gradient(top, #a1bbe0 0%, #5c89c9 10%, #325c96 50%, #2e558b 50%, #3b6cb1 100%);
+	  border-color: #234069;
+	  text-shadow: #052654 0px 1px 1px;
+	  margin: 0 0.5em 0.5em 0;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	  font-family: "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	
+	
+}
+
+	#logo { cursor: pointer; margin: 0 auto; width: 206px; height: 133px; background-image: url(/images/logo-large-trans.gif); background-repeat: no-repeat; }
+	
+
+.slidingDiv {
+    height:300px;
+    background-color: #99CCFF;
+    padding:20px;
+    margin-top:10px;
+    border-bottom:5px solid #3399FF;
+}
+ 
+.show_hide {
+    display:none;
+}

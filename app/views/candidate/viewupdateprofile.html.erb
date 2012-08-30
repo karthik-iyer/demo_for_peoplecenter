@@ -1,0 +1,24 @@
+<h1>hello Candidate <%=@email%>!!! </h1>
+
+	<div id="accordioncandidate">
+	    <h3><a href="#">Step 1-  Profile </a></h3>
+	    <div>
+	    	
+	<%=render :partial => 'shared/profile'%>
+	
+	    </div>
+	    <h3><a href="#">Step 2-  Resume</a></h3>
+	    <div>
+	    	
+	<%=render :partial => 'shared/current_jobs'%>
+	    </div>
+	
+		<h3><a href="#">Step 3- Writing Samples</a></h3>
+	    <div>
+	    	
+	<%=render :partial => 'shared/login_account'%>
+	    </div>
+	
+	
+	</div>
+
